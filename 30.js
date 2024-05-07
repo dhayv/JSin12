@@ -21,3 +21,25 @@ split(separator, maxlimit)
   tricky = "goshgoshgoshgoshgoshgoshgoshgosh";
   print(tricky.split("sh"));
   // Output: [ 'go', 'go', 'go', 'go', 'go', 'go', 'go', 'go', '' ]
+
+
+// Day 2
+// JS syntax
+slice(start,end)
+
+  var array = ['fire', 'water', 'ice', 'steam', 'sand', 'grass']
+  console.log(array.slice(0,4)); 
+  // Output: [ 'fire', 'water', 'ice', 'steam' ]
+
+  console.log(array.slice(-5,-2));
+  // Output: [ 'water', 'ice', 'steam' ]
+
+// JS syntax
+list[start:end:step] 
+
+  array = ['fire', 'water', 'ice', 'steam', 'sand', 'grass']
+  print(array[0:4])
+  // Output: [ 'fire', 'water', 'ice', 'steam' ]
+
+  print(array[-5:-2])
+  // Output: ['water', 'ice', 'steam' ]
