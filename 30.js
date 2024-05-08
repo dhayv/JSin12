@@ -68,3 +68,32 @@ substr(start,length) start is required
   console.log(string[:-9]); 
   // Output: "out."
 
+// Day 4
+// Js Syntax
+reverse() an array method
+
+  var array = ['r', 'e', 't', 'u', 'p', 'm', 'o', 'c']
+  console.log(array.reverse());
+  // Output = ['c', 'o', 'm', 'p', 'u', 't', 'e', 'r']
+
+
+join() changes an array to a string
+  console.log(array.join());
+  // Output = "r,e,t,u,p,m,o,c" 
+
+  console.log(array.join(" ")); join with space in between
+  // Output = "r e t u p m o c" 
+
+  console.log(array.join("] ["));
+  // Output = "r] [e] [t] [u] [p] [m] [o] [c"
+
+//Challenge
+  var splitString = "tnellecxe"
+  console.log(splitString.split("").reverse().join(""));
+  // Output = "excellent"
+
+  var today = "today work Great"
+  console.log(today.split(" ").reverse().joing(" "));
+  // Output = "Great work today"
+  
+  
