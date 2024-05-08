@@ -25,7 +25,7 @@ split(separator, maxlimit)
 
 // Day 2
 // JS syntax
-slice(start,end)
+slice(start,end) Array Method/List
 
   var array = ['fire', 'water', 'ice', 'steam', 'sand', 'grass']
   console.log(array.slice(0,4)); 
@@ -34,8 +34,8 @@ slice(start,end)
   console.log(array.slice(-5,-2));
   // Output: [ 'water', 'ice', 'steam' ]
 
-// JS syntax
-list[start:end:step] 
+// Python syntax
+list[start:end:step] Array Method/List
 
   array = ['fire', 'water', 'ice', 'steam', 'sand', 'grass']
   print(array[0:4])
@@ -43,3 +43,28 @@ list[start:end:step]
 
   print(array[-5:-2])
   // Output: ['water', 'ice', 'steam' ]
+
+
+// Day 3
+// JS Syntax
+slice()
+substring() cant except negatives
+substr(start,length) start is required
+
+  var string = "Now it's my turn to try it out."
+  console.log(string.substr(0,8)); 
+  // Output: "Now it's"
+
+  var string = "Now it's my turn to try it out."
+  console.log(string.substr(-9)); 
+  // Output: "out."
+
+  // Python Syntax
+  string = "Now it's my turn to try it out."
+  console.log(string[:8]); 
+  // Output: "Now it's"
+
+  string = "Now it's my turn to try it out."
+  console.log(string[:-9]); 
+  // Output: "out."
+
