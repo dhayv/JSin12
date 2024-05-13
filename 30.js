@@ -95,5 +95,27 @@ join() changes an array to a string
   var today = "today work Great"
   console.log(today.split(" ").reverse().joing(" "));
   // Output = "Great work today"
-  
-  
+
+// Day 5 
+Front of array
+shift(); shift back
+unshift(); shift forward
+
+Back of array
+pop(); forward
+push(); back
+
+var array = ["1","2","3","4","5","6"]
+cosole.log(array.shit());
+// Output = "1" removed, current array ["2","3","4","5","6"]
+
+console.log(array.unshift("1")); add back 1 
+// Output = 6 amount of items in array, current array ["1","2","3","4","5","6"]
+
+var array = ["one","two","three","four","five","six"]
+console.log(array.pop());
+// Output = "six" removed, current array ["one","two","three","four","five"]
+
+console.log(array.push("six")) add 6 back
+// Output = "6" amount of items in array, current array ["one","two","three","four","five","six"]
+
